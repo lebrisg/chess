@@ -1,7 +1,7 @@
 {
-  "name": "nodejs-ex",
+  "name": "chess",
   "version": "0.0.1",
-  "description": "Node.js sample app for OpenShift 3",
+  "description": "Chess sample app for OpenShift 3",
   "main": "server.js",
   "dependencies": {
     "chai": "^3.5.0",
