@@ -76,6 +76,7 @@ app.get('/', function (req, res) {
     });
   } else {
     res.render('index.html', { pageCountMessage : null});
+    var board = ChessBoard('pgn','start');
   }
 });
 
@@ -109,4 +110,3 @@ console.log('Server running on http://%s:%s', ip, port);
 
 module.exports = app ;
 
-var board = ChessBoard('pgn','start');
