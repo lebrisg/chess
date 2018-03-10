@@ -2,7 +2,8 @@
 var express = require('express'),
     app     = express(),
     morgan  = require('morgan'),
-    chessboard = require('chessboard');
+    chessboard = require('chessboard'),
+    jquery = require('jquery');
     
 Object.assign=require('object-assign')
 
