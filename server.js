@@ -15,7 +15,7 @@ var initGame = function () {
         onDrop: handleMove,
     };
 
-    board = new ChessBoard('gameBoard', cfg);
+    board = new ChessBoard('pgn', cfg);
     game = new Chess();
 }
 
