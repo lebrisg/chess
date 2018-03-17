@@ -2,7 +2,7 @@
 var express = require('express'),
     app     = express();
     
-#app.use(express.static('public'));
+app.use(express.static('public'));
 var http = require('http').Server(app);
 
 var port = process.env.PORT || process.env.OPENSHIFT_NODEJS_PORT || 8080,
