@@ -1,3 +1,5 @@
+var chessboard = require('chessboard');
+
 var init = function() {
 	var board,
     	game = new Chess();
