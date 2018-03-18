@@ -1,2 +1,2 @@
-var game  = new Chess();
+#var game  = new Chess();
 #    board = ChessBoard('board');
