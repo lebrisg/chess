@@ -1,12 +1,18 @@
 <html>
 <head>
-<title>Test chess</title>
+    <title>Test chess</title>
+    <link rel="stylesheet" href="lib/chessboardjs/css/chessboard-0.3.0.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <div id="board" class="board" style="width: 400px"></div>
-<script src="js/json3.min.js"></script>
-<script src="js/jquery-1.10.1.min.js"></script>
-<script src="js/chessboard-0.3.0.js"></script>
-<script src="js/chess.js"></script>
+<script src="lib/jquery/jquery-3.2.1.min.js"></script>
+<script src="lib/chessboardjs/js/chess.js"></script>
+<script src="lib/chessboardjs/js/chessboard-0.3.0.js"></script>
+<script>
+        var board,
+        game = new Chess();
+        board = ChessBoard('board');
+</script>
 </body>
 </html>
